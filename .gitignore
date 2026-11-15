@@ -1,0 +1,71 @@
+# ========== 构建目录（含 Qt Creator 的 shadow build） ==========
+build/
+build*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+Makefile.Debug
+Makefile.Release
+debug/
+release/
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dll
+*.pdb
+*.ilk
+*.exp
+compile_commands.json
+
+# ========== Qt 自动生成（moc / uic / rcc） ==========
+moc_*.cpp
+moc_*.h
+*.moc
+ui_*.h
+qrc_*.cpp
+*.rcc
+.qmake.stash
+qmlcache/
+*.qmlc
+*.jsc
+*.qm
+
+# ========== Qt Creator 本地配置（含你的 Kit 路径，绝不能传） ==========
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+*.user
+*.user.*
+*.pro.user
+*.pro.user.*
+.qtcreator/
+
+# ========== 模型权重（face_recognizer_fast.onnx 36.9MB） ==========
+
+models/*.onnx
+modles/*.onnx
+
+# ========== 日志 / 崩溃 ==========
+*.log
+core
+core.*
+vgcore.*
+*.dmp
+
+# ========== 编辑器 / 系统 / 备份 ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.autosave
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.bak[0-9]*
+*.orig
+*.rej
